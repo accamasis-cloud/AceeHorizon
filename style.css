@@ -1,0 +1,135 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header & Navigation */
+header {
+  background: #222;
+  color: #fff;
+  padding: 1em;
+}
+
+header h1 {
+  margin: 0; /* fixed: removed bottom margin to keep spacing consistent */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; /* smoother hover effect */
+}
+
+nav a:hover {
+  color: #00bfff;
+}
+
+/* Container */
+.container {
+  padding: 2em;
+  max-width: 1200px; /* keeps content centered on large screens */
+  margin: auto;
+}
+
+/* Forms */
+.form-box {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 1.5em;
+  margin: 1em auto;
+  width: 100%;
+  max-width: 350px; /* fixed: prevents stretching on wide screens */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-box h2 {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.form-box input,
+.form-box textarea {
+  display: block;
+  width: 100%;
+  margin: 0.5em 0;
+  padding: 0.7em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 0.7em;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-box button:hover {
+  background: #0056b3;
+}
+
+/* Products grid */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.product {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 1em;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease; /* adds hover animation */
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer / Social */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.social a {
+  color: #00bfff;
+  margin: 0 0.5em;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+.social a:hover {
+  text-decoration: underline;
+}

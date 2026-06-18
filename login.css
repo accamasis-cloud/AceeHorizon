@@ -1,0 +1,67 @@
+/* Login Page Styling */
+.login-page {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4; /* light background like in Figma */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  text-align: center;
+  background: #fff;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  width: 400px;
+}
+
+.logo {
+  width: 180px;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: 0.2em 0;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin-bottom: 1.5em;
+  color: #28a745; /* green accent for "ACE HORIZON" */
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8em 2em;
+  background: #28a745; /* green buttons */
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #218838;
+}
+
+.forgot {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,108 @@
+.contact-page {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.contact-container {
+  max-width: 800px;
+  width: 100%;
+  background: #fff;
+  padding: 2em;
+  margin: 2em;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0.5em;
+  color: #222;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 2em;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 0.8em;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #0056b3;
+}
+
+.connect-section {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.logo {
+  width: 120px;
+  margin: 1em 0;
+}
+
+.social-icons {
+  margin-top: 1em;
+}
+
+.socmed {
+  width: 200px; /* adjust size of your Socmed.png */
+}
+
+/* Home Button */
+.home-btn-wrapper {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.home-btn {
+  display: inline-block;
+  padding: 0.8em 2em;
+  background: #28a745;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.home-btn:hover {
+  background: #218838;
+}

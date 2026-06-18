@@ -1,0 +1,95 @@
+.about-page {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 1em;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 0.5em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #0056b3;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 2em auto;
+  text-align: center;
+  padding: 1em;
+}
+
+.about-container h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #222;
+}
+
+.about-container p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 2em;
+}
+
+.image-wrapper {
+  margin: 2em 0;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.scroll-text {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 1em;
+}
+
+/* Home Button */
+.home-btn-wrapper {
+  margin-top: 2em;
+}
+
+.home-btn {
+  display: inline-block;
+  padding: 0.8em 2em;
+  background: #28a745;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.home-btn:hover {
+  background: #218838;
+}

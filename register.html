@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register - Ace Horizon</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body class="register-page">
+  <div class="register-container">
+
+    <!-- Logo centered at the top -->
+    <div class="logo-wrapper">
+      <img src="Ace Horizon copy.png" alt="Ace Horizon Logo" class="logo">
+    </div>
+
+    <!-- Top Back Button -->
+    <div class="top-back">
+      <a href="home.html" class="back-btn">Back</a>
+    </div>
+
+    <!-- Forms Side by Side -->
+    <div class="form-wrapper">
+      
+      <!-- Buyer Form -->
+      <div class="form-box">
+        <h2>FOR BUYER</h2>
+        <form action="register.php" method="POST">
+          <input type="hidden" name="role" value="buyer">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+          <button type="submit" class="back-btn">Back</button>
+        </form>
+      </div>
+
+      <!-- Seller Form -->
+      <div class="form-box">
+        <h2>FOR SELLER</h2>
+        <form action="register.php" method="POST">
+          <input type="hidden" name="role" value="seller">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+          <button type="submit" class="back-btn">Back</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
